@@ -2,7 +2,7 @@
 Electric Vehicle Market Performance & Insights
 An interactive data-analytics project exploring electric-vehicle (EV) market data using Tableau. The project is designed to help users compare manufacturers, vehicle categories, battery technologies, sales, driving range, customer ratings, model years, and manufacturing countries through visual dashboards.
 <p align="center">
-  <a href="https://public.tableau.com/app/profile/shreyam.richhariya/viz/EVMarketPerformanceInsights_17933009278830/Dashboard1?publish=yes">
+  <a href="https://public.tableau.com/app/profile/shreyam.richhariya/viz/EVMarketPerformanceInsights\_17933009278830/Dashboard1?publish=yes">
     <strong>🔎 View the Interactive Tableau Dashboard</strong>
   </a>
 </p>
@@ -17,13 +17,13 @@ Explore battery technology and manufacturing-country distributions.
 Present key views in a Tableau dashboard and Story.
 Provide a simple Flask webpage to embed the published dashboard.
 📊 Dataset
-File: `ev_market_test.csv`
+File: `ev\_market\_test.csv`
 Item	Details
 Records	100,000 rows
 Columns	37
 Data format	CSV
-The dataset includes fields such as `vehicle_id`, `manufacturer`, `model_year`, `manufacturing_country`, `category`, `battery_type`, `range_km`, `price_usd`, `annual_sales_units`, and `customer_rating`.
-> **Data note:** The figures above describe the local dataset used for this project. Check the actual repository files and workbook before relying on these details. The dataset may contain missing values, so validate fields before drawing conclusions.
+The dataset includes fields such as `vehicle\_id`, `manufacturer`, `model\_year`, `manufacturing\_country`, `category`, `battery\_type`, `range\_km`, `price\_usd`, `annual\_sales\_units`, and `customer\_rating`.
+> \*\*Data note:\*\* The figures above describe the local dataset used for this project. Check the actual repository files and workbook before relying on these details. The dataset may contain missing values, so validate fields before drawing conclusions.
 📈 Visualizations
 The planned dashboard views include:
 Market Overview — summary indicators for vehicle IDs, manufacturers, average driving range, and customer ratings.
@@ -73,15 +73,15 @@ The webpage embeds the published Tableau view. You need an internet connection t
 ```text
 EV-Insights-Report/
 ├── README.md
-├── ev_market_test.csv
-├── EV_Market_Performance_Project_Documentation.docx
+├── ev\_market\_test.csv
+├── EV\_Market\_Performance\_Project\_Documentation.docx
 ├── app.py
 └── templates/
     └── index.html
 ```
 If you have saved your Tableau workbook, consider adding it too:
 ```text
-EV_Market_Performance_Insights.twbx
+EV\_Market\_Performance\_Insights.twbx
 ```
 Use the actual filename of your workbook. Do not add a file to the README structure unless it is actually present in the repository.
 ✅ Validation Checklist
